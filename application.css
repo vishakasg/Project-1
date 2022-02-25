@@ -1,0 +1,392 @@
+html {
+    font-size: 6.25%;
+    box-sizing: border-box;
+    line-height: 1.3;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  .flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-container2{
+    display: flex;
+   }
+  
+  .box-shadow {
+    box-shadow: 1rem 1rem 10rem #909090;
+  }
+  
+  .text-shadow {
+    text-shadow: 1rem 1rem 10rem rgb(90, 90, 90);
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16rem;
+  }
+  
+  header {
+    background-color: #6a7b8b;
+    height: 100rem;
+  }
+  
+  header > a > img {
+    width: 270rem;
+    height: auto;
+    padding-left: 75rem;
+  }
+  
+  nav {
+    padding-right: 75rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 30rem;
+    font-weight: 600;
+    font-size: 18rem;
+  }
+  
+  nav a:hover {
+    color: #5c5b5b;
+  }
+  
+  #logo-main {
+    width: 260rem;
+  }
+  
+  #hero-image > img {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45rem;
+  }
+  
+  h2 {
+    font-size: 45rem;
+    color: #5c5b5b;
+    padding: 80rem 0 80rem 0;
+  }
+  
+  .features {
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .feature-box {
+    flex-direction: column;
+    background-color: #bbc2c8;
+    padding: 50rem;
+  }
+  
+  .feature-box > img {
+    width: 150rem;
+    height: 150rem;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-size: 32rem;
+    color: white;
+  }
+  
+  .feature-box > p {
+    max-width: 400rem;
+    font-size: 20rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #discover {
+    color: #5c5b5b;
+  }
+  
+  #learn-more {
+    display: block;
+    width: 460rem;
+    margin: 100rem auto 0 auto;
+    text-decoration: none;
+    color: white;
+    font-size: 32rem;
+    font-weight: bold;
+  }
+  
+  #learn-more > div {
+    background-color: #6a7b8b;
+    border-radius: 10rem;
+    padding: 1rem 0;
+  }
+  
+  #discover p {
+    font-size: 32rem;
+  }
+  
+  #discover-week {
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-around;
+  }
+  
+  #open {
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+  }
+  
+  #open > img {
+    height: 150rem;
+    width: auto;
+    margin-right: 50rem;
+  }
+  
+  .discover-day {
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding: 100rem;
+    margin: 10rem 0;
+  }
+  
+  .discover-day > span {
+    width: 90%;
+  }
+  
+  .discover-day > span > div {
+    justify-content: center;
+  }
+  
+  #discover > p {
+    margin: 100rem 0;
+  }
+  
+  #discover> p:last-child {
+    font-size: 40rem;
+  }
+  
+  footer {
+    background-color: #6a7b8b;
+    height: 175rem;
+    color: white;
+    font-size: 20rem;
+    position: relative;
+  }
+  
+  #logo-footer {
+    height: 100rem;
+    top: 25%;
+    left: 5%;
+    position: absolute;
+  }
+  
+  #socials {
+    height: 175rem;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 25rem;
+  }
+  
+  #social-logos {
+    padding: 0 40rem;
+    justify-content: space-between;
+  }
+  
+  #social-logos img {
+    width: 40rem;
+    margin: 0 20rem;
+  }
+  
+  .about {
+    text-align: left;
+  }
+  
+  .about p:first-of-type {
+    font-size: 45rem;
+  }
+  .about img {
+    max-height: 100vh;
+  }
+  
+  .about-text {
+    width: 55%;
+  }
+  
+  .about span {
+    font-size: 32rem;
+    color: #5c5b5b;
+    padding: 100rem;
+  }
+  
+  #pic2 {
+    height: 80vh;
+  }
+  
+  .contact {
+    color: #5c5b5b;
+  }
+  
+  #contact-h1 {
+    font-size: 48rem;
+  }
+  
+  #address {
+    text-align: left;
+    font-size: 32rem;
+    margin-left: 25%;
+    padding: 50rem 0;
+  }
+  
+  #map {
+    height: 80vh;
+    width: 80vh;
+    margin: 50rem 0 100rem 0;
+  }
+  
+  /* MEDIA QUERY */
+  
+  @media (max-width:800px) {
+   
+    .flex-container1{
+      display: block;
+    }
+  
+    .flex-container2{
+      display: block;
+    }
+  
+    .box-shadow {
+      box-shadow: unset;
+    }
+    
+    .text-shadow {
+      text-shadow: unset;
+    }
+  
+    header {
+      height: 200rem;
+    }
+    
+    header > a > img {
+      max-width: 100%;
+      height: auto;
+      padding-left: 0rem;
+      margin: 20rem auto;
+    }
+    
+    nav {
+      padding-right: 0rem;
+    }
+  
+    h1 {
+      position: unset;
+      top: unset;
+      left: unset;
+      transform: unset;
+      color: #5c5b5b;
+      font-size: 32rem;
+    }
+  
+    h2 {
+      font-size: 28rem;
+    }
+    
+    .feature-box {
+      margin: 50rem 0;
+    }
+    
+    .feature-box > p {
+      max-width: 100%;
+    }
+  
+    #learn-more {
+      width: unset;
+      max-width: 75%;
+    }
+    
+    #discover-week {
+      margin: 0 auto;
+      width: 100%;
+      justify-content: space-around;
+    }
+    
+    #open > img {
+      height: 150rem;
+      width: auto;
+      margin-right: unset;
+    }
+    
+    .discover-day {
+      width: 100%;
+      padding: 20rem;
+    }
+    
+    .discover-day > span {
+      width: 90%;
+    }
+    
+    #discover > p {
+      margin: 30rem auto;
+    }
+    
+    #discover> p:last-child {
+      font-size: 32rem;
+    }
+  
+  
+    #logo-footer {
+      display: none;
+    }
+    
+    #social-logos img {
+      width: 30rem;
+    }
+  
+    .about {
+      text-align: center;
+    }
+    
+    
+    .about p:first-of-type {
+        font-size: 30rem;
+    }
+    
+    .about img {
+            height: unset;
+            max-width: 80%;
+    }
+
+    .about-text {
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .about span {
+      font-size: 20rem;
+      padding: unset;
+    }
+    
+    #pic2 {
+      display: none;
+    }
+  }
